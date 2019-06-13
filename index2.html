@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignmenr - 02</title>
+    <title>Assignmenr - 01</title>
 
     <link rel="stylesheet" href="css/style1.css">
 
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+        }
+        th {
+            text-align: left;
+        }
+    </style>
 
 </head>
 <body>
@@ -29,14 +41,14 @@
         <li><img src="icons/Logout%20Rounded_50px.png">LogOut</li>
     </ul>
 </header>
-<section>
+<!--<section>-->
     <nav>
         <div class="iconset">
             <ul >
                 <li><a href="http://localhost:63342/Assignment2/index1.html?_ijt=nfdfqoqhrlhglfqnpb43b4q3co"><img src="icons/Dashboard_50px_1.png"></a></li>
-                <li><img src="icons/Queue_50px.png"></li>
-                <li><img src="icons/Check%20In%20Desk_50px.png"></li>
-
+                <li><a href="http://localhost:63342/Assignment2/index2.html?_ijt=a3ln299fcfj80tt3at9mus1vhv"> <img src="icons/Queue_50px.png"></a></li>
+                <li><a href="index3.html"><img src="icons/Check%20In%20Desk_50px.png"></a></li>
+                <li><a href="index4.html"><img src="icons/Deliver Food_50px.png"></a></li>
             </ul>
         </div>
         <img class="mainpic" src="images/34777270_2161319464090163_1457390005348466688_n.jpg">
@@ -53,7 +65,7 @@
 
         </div>
     </nav>
-    <aside>
+    <!--<aside>-->
         <div class="maincontent">
             <div class="con1">
                 <img src="icons/Queue_50px_1.png"><h6>CUSTOMER</h6>
@@ -61,7 +73,7 @@
             <div class="con2-box1" style="width: 500px; height: 250px;top: 80px;left: 20px;top:150px">
                 <div class="con2-box1head"><h5>Customer Search</h5></div>
                 <input id="text1" type="text" placeholder=" Input Name/Tp/NIC here ">
-                <input id="button1" type="submit" value="Save">
+                <input id="button1" type="submit" value="Search">
                 <select>
                     <option>Name</option>
                     <option>Tp</option>
@@ -72,10 +84,39 @@
                 <input class="buttonst" type="submit" value="New Customer" style="background: #566dc3">
                 <input class="buttonst" type="submit" value="View All Customer" style="background: #c3843c">
             </div>
+            <div style="margin-top: 400px;margin-left: 90px">
+                <button class="button">Edit</button>
+                <button class="button button2">Detail</button>
+                <button class="button button3">Delete</button>
+
+            </div>
+            <table style="width:100%;margin-top:40px">
+                <tr style="background-color: #566dc3">
+                    <th>Nic</th>
+                    <th>name</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                </tr>
+            </table>
+
 
         </div>
-    </aside>
-</section>
+    <!--</aside>-->
+<!--</section>-->
 <footer>
 
 </footer>
